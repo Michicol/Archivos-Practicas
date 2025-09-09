@@ -1,0 +1,3 @@
+/home/michicol/Desktop/Practicas Profesionales/build/CMakeFiles/rebuild_cache.dir
+/home/michicol/Desktop/Practicas Profesionales/build/CMakeFiles/edit_cache.dir
+/home/michicol/Desktop/Practicas Profesionales/build/CMakeFiles/wishart_module.dir
