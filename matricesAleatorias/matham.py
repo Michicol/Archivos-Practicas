@@ -66,8 +66,3 @@ class DensidadesHam:
         rho[mask] = (1/np.pi) * np.sqrt(2 - x[mask]**2)
         return rho
     
-    def SemiCircleNorm(self,x):
-        rho = np.zeros_like(x)
-        mask = np.abs(x) <= np.sqrt(2*self.beta*self.n)
-        rho[mask] = (1/(self.beta * self.n * np.pi)) * np.sqrt(2*self.beta * self.n - x[mask] ** 2)
-        return rho
