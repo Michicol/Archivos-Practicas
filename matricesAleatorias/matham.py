@@ -65,4 +65,4 @@ class DensidadesHam:
         mask = np.abs(x) <= np.sqrt(2)
         rho[mask] = (1/np.pi) * np.sqrt(2 - x[mask]**2)
         return rho
-    
+
